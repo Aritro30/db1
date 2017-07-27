@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+#form {background: url("image/blood.jpg");background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+23,e5e5e5+66 */
+background: #3b679e; /* Old browsers */background: -moz-linear-gradient(left, #3b679e 0%, #2b88d9 23%, #e5e5e5 66%); /* FF3.6-15 *//* background: -webkit-linear-gradient(left, #3b679e 0%,#2b88d9 23%,#e5e5e5 66%); */ /* Chrome10-25,Safari5.1-6 *//* background: linear-gradient(to right, #3b679e 0%,#2b88d9 23%,#e5e5e5 66%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */background-repeat: no-repeat;background-size: cover;overflow: hidden;min-height: 100vh;/* height: 98%; *//* max-height: 100%; */}
+
+.wrapper {
+    /* height: 1200px; */
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 75px;
+}
+
+.form-content {
+    width: 60%;
+    float: left;
+    color: #5d0606;
+    /* margin-left: 0px; */
+    /* padding-left: 0px; */
+}
+.form-content h1{
+    margin-left: 10px;
+}
+.form-content form {
+    margin-left: 10px;
+}
+.form-content input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.form-content input[type="submit"]{
+    
+background: #5d0606;
+    
+padding: 10px 26px;
+    
+text-transform: uppercase;
+    
+border: 0;
+    
+color: #fff;
+    
+width: 20%;
+    
+margin-top: 6px;
+    
+box-shadow: 0px 0px 0 #5d0606;
+}
+.form-box {
+    width: 40%;
+    float: left;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    margin-right: 0px;
+}
+
+.registration-form {
+    background: #fd5856;
+    padding: 20px 25px;
+}
+
+.registration-form h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5d0606;
+}
+
+.registration-form p {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
+
+.registration-form form {}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form input[type="gender"]
+.registration-form input[type="age"]
+.registration-form input[type="blood-group"] {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.registration-form input[type="blood-group"] {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.registration-form input[type="gender"] {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.registration-form input[type="age"] {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ .registration-form span{
+     margin-bottom: 5px;
+    font-size: 20px;
+ }
+
+.registration-form label {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+.registration-form textarea {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.registration-form input[type="submit"]{
+    
+background: #5d0606;
+    
+padding: 10px 26px;
+    
+text-transform: uppercase;
+    
+border: 0;
+    
+color: #fff;
+    
+width: 100%;
+    
+margin-top: 6px;
+    
+box-shadow: 0px 5px 0 #5d0606;
+}
+.registration-form input[type="submit"]:focus{
+    
+box-shadow: 0px 0 0 #203a20;
+
+}
+.registration-form input:focus{
+        outline:none;
+}

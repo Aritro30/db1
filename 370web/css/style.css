@@ -1,0 +1,158 @@
+body{
+
+margin: 0;
+
+padding: 0px;
+}
+.container{
+
+/* background-color: #801313; */
+
+/* background: url(../images/6.png); */
+
+width: 100%;
+
+margin: 0px;
+
+/* margin: 0 auto; */
+
+height: 1000px;
+
+height: -37%;
+
+/* background-repeat: no-repeat; */
+
+/* background-size: cover; */
+
+overflow: hidden;
+
+/* min-height: 100vh; */
+}
+.container .content
+{
+
+height: 70%;
+
+/* text-align: center; */
+
+margin top: 300px;
+
+flex: left;
+
+/* margin-top: 100px; */
+
+overflow: hidden;
+
+background: url(../images/6.png);
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+overflow: hidden;
+
+min-height: 100vh;
+}
+.container .content form
+{
+
+text-align: center;
+
+width: 60%;
+
+margin: 0 auto;
+}
+.container .content form h3
+{
+
+/* margin-left: 11px; */
+
+/* margin-right: 213px; */
+
+color: #750001;
+
+text-decoration: underline;
+
+font-size: xx-large;
+}
+.container .content input[type="text"]
+{
+    width: 50%;
+    padding: 10px;
+    /* border: 143px; */
+    margin-bottom: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.container .content  input[type="password"]
+{
+
+width: 50%;
+
+padding: 10px;
+
+/* border: 143px; */
+
+margin-bottom: 25px;
+
+font-size: 16px;
+
+box-sizing: border-box;
+}
+.container .content  input[type="submit"]
+{
+
+width: 50%;
+
+padding: 10px;
+
+/* border: 143px; */
+
+margin-bottom: 25px;
+
+font-size: 16px;
+
+box-sizing: border-box;
+
+background: #c40004;
+}
+.container .admin{
+    height: 30%;
+    overflow: hidden;
+    background: #d9d9d9;
+}
+.admin .names{
+    /* margin: 77px; */
+    width: 100%;
+    /* margin-left: 80px; */
+    text-align: center;
+    padding-bottom: 15px;
+}
+.admin .names p{
+    font-size: xx-large;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* font-style: italic; */
+    color: #700001;
+}
+.container .admin ul{
+    list-style: none;
+    width: 100%;
+}
+.container .admin ul li{
+    width: 16%;
+    float: left;
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+    color: #700001;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.container .admin ul li h3{}
+.container .admin ul li img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /* margin: 0 auto; */
+}
